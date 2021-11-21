@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>VG Motorok</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tesztvezetes.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light justify-content-center">
+        <a class="navbar-brand" href="#">
+            <img src="images/suzuki.gif" width="45" height="45" class="d-inline-block align-top">
+            <b id="cim">VG Motorkölcsönzés</b>
+            <img src="images/honda.gif" width="45" height="45" class="d-inline-block align-top">
+        </a>
+    </nav>
+    <br>
+    <img src="images/kerek.gif" class="kerek">
+    <h1>Motorok széles választékban.</h1>
+    <p class="szoveg">Itt tud motort kölcsönözni, egy pár adatot megadva.</p>
+    <div class="fodoboz">
+        <form id="urlap">
+            <label for="marka" class="markalabel">Márka:</label>
+            <select id="marka">
+                <option hidden></option>
+                <option>Suzuki</option>
+                <option>Honda</option>
+            </select><br>
+            <label for="tipus" class="tipuslabel">Típus:</label>
+            <select id="tipus">
+                <option hidden></option>
+            </select><br>
+            <label for="idopont" class="idopontlabel">Időpont:</label>
+            <select id="idopont">
+                <option hidden></option>
+                <option>2021.11.22.</option>
+                <option>2021.11.24.</option>
+                <option>2021.11.26.</option>
+                <option>2021.11.28.</option>
+                <option>2021.11.30.</option>
+            </select><br>
+            <label for="nev" class="nevlabel">Az Ön neve:</label>
+            <input type="text" value="" id="nev"><br>
+            <label for="email" class="emaillabel">Email:</label>
+            <input type="text" value="" id="email"><br>
+            <label for="telefonszam" class="telefonlabel">Telefonszám:</label>
+            <input type="text" value="06" id="telefonszam"><br>
+            <label for="vanejogsi" class="vanejogsilabel">Van jogosítványod?</label>
+            <select id="vanejogsi">
+                <option hidden></option>
+                <option>Igen</option>
+                <option>Nem</option>
+            </select>
+            <label for="jogositvany" class="jogositvanylabel">Jogosítvány száma:</label>
+            <input type="number" value="" id="jogositvany"><br>
+            <label for="kolcsonzo" class="kolcsonzolabel">Kölcsönző:</label>
+            <select id="kolcsonzo">
+                <option hidden></option>
+                <option>VG Motorok</option>
+            </select><br>
+            <input type="button" value="Foglalás" id="gomb">
+        </form>
+    </div>
+    <div class="mellekdoboz">
+        <div class="kep">
+            <img src="" id="kep">
+        </div>
+        <p class="motor" id="motorka"></p>
+        <p class="vegeszoveg" id="vegszoveg"></p>
+    </div>
+    <script type="text/javascript" src="js/tesztvezetes.js"></script>
+
+</body>
+
+</html>

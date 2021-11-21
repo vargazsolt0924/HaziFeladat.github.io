@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|outline|Trirong');
+
+body {
+    /*background-image: url(../images/sun.gif);*/
+    background-image: radial-gradient(circle, white, black, white);
+}
+
+.navbar {
+    background-image: linear-gradient(to top, black, red);
+}
+
+#cim {
+    font-size: 36px;
+    font-family: 'Audiowide';
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+}
+
+.kerek {
+    width: 45px;
+    height: 45px;
+    display: block;
+    align-items: top;
+    margin-left: 940px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Audiowide';
+    text-shadow: 5px 5px 5px black;
+
+}
+
+.szoveg {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Trirong';
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.fodoboz {
+    box-shadow: rgba(240, 8, 8, 0.25) 0px 54px 55px, rgba(240, 8, 8, 0.25) 0px -12px 30px, rgba(240, 8, 8, 0.25) 0px 4px 6px, rgba(240, 8, 8, 0.25) 0px 12px 13px, rgba(240, 8, 8, 0.25) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    background-image: url(../images/balos.png);
+    background-color: aliceblue;
+    float: left;
+    height: 600px;
+    width: 1000px;
+    top: 5px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.markalabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#marka {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(252, 46, 46);
+}
+.tipuslabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 310px;
+}
+#tipus {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(252, 46, 46);
+}
+.idopontlabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 284px;
+}
+#idopont {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(252, 46, 46);
+}
+.nevlabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 243px;
+}
+#nev {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    color: rgb(252, 46, 46);
+    font-size: 20px;
+}
+.emaillabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 313px;
+}
+#email {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    color: rgb(252, 46, 46);
+    font-size: 20px;
+}
+.telefonlabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 231px;
+}
+#telefonszam {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    color: rgb(252, 46, 46);
+    font-size: 20px;
+}
+.vanejogsilabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 157px;
+}
+#vanejogsi {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    color: rgb(252, 46, 46);
+    font-size: 20px;
+}
+.jogositvanylabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 157px;
+}
+#jogositvany {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    color: rgb(252, 46, 46);
+    font-size: 20px;
+}
+.kolcsonzolabel {
+    color: rgb(252, 46, 46);
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 256px;
+}
+#kolcsonzo {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    width: 350px;
+    height: 40px;
+    color: rgb(252, 46, 46);
+    font-size: 20px;
+}
+#gomb {
+    box-shadow: rgb(7, 7, 7) 0px 54px 55px, rgba(7, 7, 7) 0px -12px 30px, rgba(7, 7, 7) 0px 4px 6px, rgba(7, 7, 7) 0px 12px 13px, rgba(7, 7, 7) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    border: 3px solid rgb(0, 27, 11);
+    text-shadow: 2px 5px 5px black;
+    background-color: rgb(192, 192, 192);
+    color: rgb(252, 46, 46);
+    font-family: 'Audiowide';
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 480px;
+}
+
+
+.mellekdoboz {
+    box-shadow: rgba(240, 8, 8, 0.25) 0px 54px 55px, rgba(240, 8, 8, 0.25) 0px -12px 30px, rgba(240, 8, 8, 0.25) 0px 4px 6px, rgba(240, 8, 8, 0.25) 0px 12px 13px, rgba(240, 8, 8, 0.25) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    background-image: url(../images/tolto.gif);
+    float: right;
+    height: 600px;
+    width: 620px;
+    top: 264px;
+    margin-right: 100px;
+}
+.motor{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trinong';
+    text-shadow: 5px 5px 5px rgb(207, 83, 83);
+    padding-top: 70px;
+}
+.vegeszoveg {
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trinong';
+    text-shadow: 5px 5px 5px rgb(207, 83, 83);
+    padding-top: 0px;
+}
+.kep {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 580px;
+    height: 400px;
+}
